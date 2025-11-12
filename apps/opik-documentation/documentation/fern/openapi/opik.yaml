@@ -4998,6 +4998,8 @@ components:
           - trace:guardrails_triggered
           - prompt:deleted
           - experiment:finished
+          - trace:cost
+          - trace:latency
         trigger_configs:
           type: array
           items:
@@ -5115,6 +5117,8 @@ components:
           - trace:guardrails_triggered
           - prompt:deleted
           - experiment:finished
+          - trace:cost
+          - trace:latency
         trigger_configs:
           type: array
           items:
@@ -5261,6 +5265,8 @@ components:
           - trace:guardrails_triggered
           - prompt:deleted
           - experiment:finished
+          - trace:cost
+          - trace:latency
         trigger_configs:
           type: array
           items:
